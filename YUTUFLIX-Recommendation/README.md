@@ -1,22 +1,22 @@
 # 📺 YUTUFLIX : AutoInt+ V3 기반 추천 서비스 고도화 프로젝트
-'''
-YUTUFLIX-Recommendation/
-├── data/                                 # 데이터 폴더
-│   ├── movielens_rcmm_v2.csv             # 평점 4점 이상 선호 기반 데이터셋
-│   └── movies_narrative_v3_full.csv      # 서사 키워드가 포함된 메타데이터
-├── images/                               # 시각화 리소스 폴더
-│   └── YOUTUFLEX.png                     # 서비스 실행 스크린샷
-├── autoint_mlp_v3_train.ipynb            # 모델 학습 및 실험 과정
-├── autointmlp_v3.py                      # TF로 변환된 AutoInt+ V3 아키텍처
-├── show_st_plus.py                       # 유튜플릭스 스트림릿 배포 코드
-├── requirements.txt                      # 필수 패키지 목록
-├── .gitattributes                        # Git LFS 설정 파일
-└── README.md                             # 프로젝트 회고 및 문서'''
+
 ![YUTUFLIX 시연 화면](./images/YOUTUFLEX.png)
 
 ## 1. 프로젝트 개요
 이번 프로젝트는 무비렌즈(MovieLens) 데이터를 활용해 유저의 클릭 확률을 예측하는 딥러닝 모델을 구축하고, 이를 실제 서비스 형태인 **'YUTUFLIX(유튜플릭스)'**로 배포하는 것을 목표로 했습니다. 단순히 돌아가는 코드를 만드는 것을 넘DJ **"프레임워크 변환과 "실험 중심의 데이터 전처리"**를 중점적으로 다뤘습니다.
-
+```text
+YUTUFLIX-Recommendation/
+├── data/                                 
+│   ├── movielens_rcmm_v2.csv             # 평점 4점 이상 선호 기반 데이터셋
+│   └── movies_narrative_v3_full.csv      # 서사 키워드가 포함된 영화 메타데이터
+├── images/                               
+│   └── YOUTUFLEX.png                     # 서비스 시연 스크린샷
+├── autoint_mlp_v3_train.ipynb            # 데이터 분석 및 모델 학습 과정 (V3)
+├── autointmlp_v3.py                      # TF로 변환한 AutoInt+ V3 아키텍처 클래스
+├── show_st_plus.py                       # TMDB API 연동 및 스트림릿 서비스 코드
+├── requirements.txt                      # 필수 패키지 (requests 포함)
+├── .gitattributes                        # Git LFS 설정
+└── README.md                             # 프로젝트 회고
 ---
 
 ## 2. 핵심 시도 및 성과
