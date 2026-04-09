@@ -1,16 +1,17 @@
 # 📺 YUTUFLIX : AutoInt+ V3 기반 추천 서비스 고도화 프로젝트
-
+'''
 YUTUFLIX-Recommendation/
-├── data/
-│   ├── movielens_rcmm_v2.csv          # 평점 4점 이상 선호 기반 데이터셋
-│   └── movies_narrative_v3_full.csv   # 서사 키워드가 포함된 메타데이터
-├── images/
-│   └── YOUTUFLEX.png                  # 서비스 실행 스크린샷
-├── autoint_mlp_v3_train.ipynb         # 모델 학습 및 실험 과정
-├── autointmlp_v3.py                   # TF로 변환된 AutoInt+ V3 아키텍처
-├── show_st_plus.py                    # 유튜플릭스 스트림릿 배포 코드
-├── requirements.txt                   # requests 포함 필수 패키지
-└── README.md                          # 프로젝트 회고문 (본 파일)
+├── data/                                 # 데이터 폴더
+│   ├── movielens_rcmm_v2.csv             # 평점 4점 이상 선호 기반 데이터셋
+│   └── movies_narrative_v3_full.csv      # 서사 키워드가 포함된 메타데이터
+├── images/                               # 시각화 리소스 폴더
+│   └── YOUTUFLEX.png                     # 서비스 실행 스크린샷
+├── autoint_mlp_v3_train.ipynb            # 모델 학습 및 실험 과정
+├── autointmlp_v3.py                      # TF로 변환된 AutoInt+ V3 아키텍처
+├── show_st_plus.py                       # 유튜플릭스 스트림릿 배포 코드
+├── requirements.txt                      # 필수 패키지 목록
+├── .gitattributes                        # Git LFS 설정 파일
+└── README.md                             # 프로젝트 회고 및 문서'''
 ![YUTUFLIX 시연 화면](./images/YOUTUFLEX.png)
 
 ## 1. 프로젝트 개요
